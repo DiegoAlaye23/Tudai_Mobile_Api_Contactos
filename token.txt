@@ -1,0 +1,10 @@
+Token JWT generado con:
+{
+  "usuario": "diego",
+  "password": "tudaipam3"
+}
+
+Token:
+{
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGllZ28iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImV4cCI6MTc0NzE1NTcwNiwiaXNzIjoiR2VzdGlvbkNvbnRhY3Rvc0FwaSIsImF1ZCI6Ikdlc3Rpb25Db250YWN0b3NVc3VhcmlvcyJ9.Na20c5XbyTdRmyqD7-au2zwnFQ3dQNiizsZfUM25OoI"
+}
