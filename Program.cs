@@ -81,6 +81,11 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 builder.Services.AddAuthorization();
 
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(5284); // Asegura que escuche por HTTP en ese puerto
+});
+
 var app = builder.Build();
 
 // Middleware
@@ -90,7 +95,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 
