@@ -3,29 +3,65 @@ using GestionContactosApi.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Microsoft.OpenApi.Models;
 using System.Security.Claims;
-using GestionContactosApi.Configuration;
-
+using Microsoft.EntityFrameworkCore;
+using ContApi.Models;
+using Microsoft.AspNetCore.Identity.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-builder.Services.Configure<SupabaseSettings>(builder.Configuration.GetSection("Supabase"));
-builder.Services.AddHttpClient<ContactoService>();
+// Configurar DbContext con conexión a SQL Server
+builder.Services.AddDbContext<DbA358b2Pam3Context>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Configurar y registrar JwtSettings
 var jwtSettingsSection = builder.Configuration.GetSection("JwtSettings");
 builder.Services.Configure<JwtSettings>(jwtSettingsSection);
 
-var jwtSettings = jwtSettingsSection.Get<JwtSettings>() 
+
+
+var jwtSettings = jwtSettingsSection.Get<JwtSettings>()
     ?? throw new InvalidOperationException("La sección JwtSettings no se encuentra en appsettings.json");
+
+
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "GestionContactosApi", Version = "v1" });
+
+    // 🔐 Configuración para permitir Bearer Token en Swagger
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "Ingresa el token JWT así: Bearer {tu_token}"
+    });
+
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "Bearer" }
+            },
+            new string[] {}
+        }
+    });
+});
+
+
 
 // Servicios
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
-builder.Services.AddSingleton<ContactoService>();
-builder.Services.AddSingleton<AuthService>();
+
+// Aquí el cambio importante: ContactoService Scoped (no Singleton)
+builder.Services.AddScoped<ContactoService>();
+builder.Services.AddScoped<AuthService>();
 
 // Configurar autenticación JWT
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -58,41 +94,11 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 
+
 // Endpoints
 app.MapControllers();
 
 // Endpoint de login
-app.MapPost("/api/auth/login", (Usuario login, AuthService authService, IConfiguration config) =>
-{
-    var usuario = authService.Login(login.UserName, login.Password);
-    if (usuario == null)
-        return Results.Unauthorized();
 
-    var jwtSettings = config.GetSection("JwtSettings").Get<JwtSettings>() 
-        ?? throw new InvalidOperationException("JwtSettings faltante");
-
-    var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.Key));
-    var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
-    var claims = new[]
-    {
-        new Claim(ClaimTypes.Name, usuario.UserName),
-        new Claim(ClaimTypes.Role, usuario.Rol)
-    };
-
-    var token = new System.IdentityModel.Tokens.Jwt.JwtSecurityToken(
-        issuer: jwtSettings.Issuer,
-        audience: jwtSettings.Audience,
-        claims: claims,
-        expires: DateTime.UtcNow.AddMinutes(jwtSettings.ExpireMinutes),
-        signingCredentials: creds
-    );
-
-    var tokenStr = new System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler().WriteToken(token);
-
-    return Results.Ok(new { token = tokenStr });
-});
 
 app.Run();
-
-

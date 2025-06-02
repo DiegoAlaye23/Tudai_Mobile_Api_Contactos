@@ -1,45 +1,216 @@
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\appsettings.Development.json
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\appsettings.json
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\GestionContactosApi.staticwebassets.endpoints.json
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\GestionContactosApi.exe
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\GestionContactosApi.deps.json
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\GestionContactosApi.runtimeconfig.json
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\GestionContactosApi.dll
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\GestionContactosApi.pdb
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\Microsoft.OpenApi.dll
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\GestionContactosApi.csproj.AssemblyReference.cache
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\GestionContactosApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\GestionContactosApi.AssemblyInfoInputs.cache
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\GestionContactosApi.AssemblyInfo.cs
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\GestionContactosApi.csproj.CoreCompileInputs.cache
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\GestionContactosApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\GestionContactosApi.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\scopedcss\bundle\GestionContactosApi.styles.css
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\staticwebassets.build.json
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\staticwebassets.development.json
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\staticwebassets\msbuild.GestionContactosApi.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\staticwebassets\msbuild.GestionContactosApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\staticwebassets\msbuild.build.GestionContactosApi.props
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.GestionContactosApi.props
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.GestionContactosApi.props
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\GestionC.4D0D7CF7.Up2Date
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\GestionContactosApi.dll
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\refint\GestionContactosApi.dll
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\GestionContactosApi.pdb
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\GestionContactosApi.genruntimeconfig.cache
-C:\Users\DELL1\GestionContactosApi\obj\Debug\net9.0\ref\GestionContactosApi.dll
-C:\Users\DELL1\GestionContactosApi\bin\Debug\net9.0\Npgsql.dll
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/appsettings.Development.json
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/appsettings.json
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/GestionContactosApi.staticwebassets.endpoints.json
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/GestionContactosApi.exe
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/GestionContactosApi.deps.json
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/GestionContactosApi.runtimeconfig.json
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/GestionContactosApi.dll
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/GestionContactosApi.pdb
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/Microsoft.OpenApi.dll
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/GestionContactosApi.csproj.AssemblyReference.cache
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/GestionContactosApi.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/GestionContactosApi.AssemblyInfoInputs.cache
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/GestionContactosApi.AssemblyInfo.cs
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/GestionContactosApi.csproj.CoreCompileInputs.cache
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/GestionContactosApi.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/GestionContactosApi.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/scopedcss/bundle/GestionContactosApi.styles.css
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/staticwebassets.build.json
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/staticwebassets.development.json
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/staticwebassets/msbuild.GestionContactosApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/staticwebassets/msbuild.GestionContactosApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/staticwebassets/msbuild.build.GestionContactosApi.props
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.GestionContactosApi.props
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.GestionContactosApi.props
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/staticwebassets.pack.json
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/GestionC.4D0D7CF7.Up2Date
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/GestionContactosApi.dll
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/refint/GestionContactosApi.dll
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/GestionContactosApi.pdb
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/GestionContactosApi.genruntimeconfig.cache
+C:/Users/DELL1/GestionContactosApi/obj/Debug/net9.0/ref/GestionContactosApi.dll
+C:/Users/DELL1/GestionContactosApi/bin/Debug/net9.0/Npgsql.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/appsettings.Development.json
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/appsettings.json
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/GestionContactosApi.staticwebassets.endpoints.json
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/GestionContactosApi
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/GestionContactosApi.deps.json
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/GestionContactosApi.runtimeconfig.json
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/GestionContactosApi.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/GestionContactosApi.pdb
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Azure.Core.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Azure.Identity.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Humanizer.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Microsoft.Win32.SystemEvents.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Mono.TextTemplating.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Npgsql.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/System.ClientModel.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/System.CodeDom.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/System.Composition.Convention.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/System.Composition.Hosting.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/System.Composition.Runtime.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/System.Drawing.Common.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/System.Formats.Asn1.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/System.Memory.Data.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/System.Runtime.Caching.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/System.Security.Permissions.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/System.Text.Json.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/System.Windows.Extensions.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/GestionContactosApi.csproj.AssemblyReference.cache
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/GestionContactosApi.GeneratedMSBuildEditorConfig.editorconfig
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/GestionContactosApi.AssemblyInfoInputs.cache
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/GestionContactosApi.AssemblyInfo.cs
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/GestionContactosApi.csproj.CoreCompileInputs.cache
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/GestionContactosApi.MvcApplicationPartsAssemblyInfo.cs
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/GestionContactosApi.MvcApplicationPartsAssemblyInfo.cache
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/GestionContactosApi.sourcelink.json
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/scopedcss/bundle/GestionContactosApi.styles.css
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/staticwebassets.build.json
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/staticwebassets.development.json
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/staticwebassets/msbuild.GestionContactosApi.Microsoft.AspNetCore.StaticWebAssets.props
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/staticwebassets/msbuild.GestionContactosApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/staticwebassets/msbuild.build.GestionContactosApi.props
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.GestionContactosApi.props
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.GestionContactosApi.props
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/staticwebassets.pack.json
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/GestionC.4D0D7CF7.Up2Date
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/GestionContactosApi.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/refint/GestionContactosApi.dll
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/GestionContactosApi.pdb
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/GestionContactosApi.genruntimeconfig.cache
+/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/Debug/net9.0/ref/GestionContactosApi.dll

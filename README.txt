@@ -7,3 +7,9 @@ Año: 2025
 Profesor: Pablo Javier Leiva
 
 Este proyecto consiste en una API REST para la gestión de contactos, implementada en .NET 9.0. Cumple con todos los puntos requeridos en el enunciado: uso de Minimal API, Controladores, JWT y protección de endpoints.
+
+Integrantes:
+Alaye, Diego Joaquín
+De Caro, Oriana 
+Galiano Sandra
+Torres Fernando

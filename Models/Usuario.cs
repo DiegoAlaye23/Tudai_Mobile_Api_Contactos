@@ -1,9 +1,20 @@
-namespace GestionContactosApi.Models
+using System;
+using System.Collections.Generic;
+using GestionContactosApi.Models;
+
+namespace ContApi.Models;
+
+public partial class Usuario
 {
-    public class Usuario
-    {
-        public string UserName { get; set; } = string.Empty;
-        public string Password { get; set; } = string.Empty;
-        public string Rol { get; set; } = "User"; 
-    }
+    public int UsuarioId { get; set; }
+
+    public string? NombreApellido { get; set; }
+
+    public string? Email { get; set; }
+
+    public string? Password { get; set; }
+
+    public bool? Activo { get; set; }
+
+    public virtual ICollection<Contacto> Contactos { get; set; } = new List<Contacto>();
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL1\\GestionContactosApi\\GestionContactosApi.csproj": {}
+    "/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/GestionContactosApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL1\\GestionContactosApi\\GestionContactosApi.csproj": {
+    "/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/GestionContactosApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL1\\GestionContactosApi\\GestionContactosApi.csproj",
+        "projectUniqueName": "/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/GestionContactosApi.csproj",
         "projectName": "GestionContactosApi",
-        "projectPath": "C:\\Users\\DELL1\\GestionContactosApi\\GestionContactosApi.csproj",
-        "packagesPath": "C:\\Users\\DELL1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL1\\GestionContactosApi\\obj\\",
+        "projectPath": "/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/GestionContactosApi.csproj",
+        "packagesPath": "/home/oriana/.nuget/packages/",
+        "outputPath": "/home/oriana/Documents/Tecnicatura/3 año/Movil 3/Tudai_Mobile_Api_Contactos/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DELL1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/oriana/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -52,6 +52,16 @@
               "target": "Package",
               "version": "[9.0.4, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
             "Npgsql": {
               "target": "Package",
               "version": "[9.0.3, )"
@@ -80,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

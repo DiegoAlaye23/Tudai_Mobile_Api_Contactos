@@ -1,18 +1,25 @@
-using GestionContactosApi.Models;
+using ContApi.Models; // Para DbA358b2Pam3Context y Usuario
+using Microsoft.EntityFrameworkCore;
 
 namespace GestionContactosApi.Services
 {
     public class AuthService
     {
-        private readonly List<Usuario> _usuarios = new()
-        {
-            new Usuario { UserName = "diego", Password = "tudaipam3", Rol = "Admin" },
-            new Usuario { UserName = "user", Password = "123456", Rol = "User" }
-        };
+        private readonly DbA358b2Pam3Context _context;
 
-        public Usuario? Login(string username, string password)
+        public AuthService(DbA358b2Pam3Context context)
         {
-            return _usuarios.FirstOrDefault(u => u.UserName == username && u.Password == password);
+            _context = context;
+        }
+
+        public async Task<Usuario?> LoginAsync(string username, string password)
+        {
+            // Buscar usuario activo con email o nombre que coincida y password igual
+            return await _context.Usuario
+                .Where(u => u.Activo == true)
+                .FirstOrDefaultAsync(u =>
+                    (u.Email == username || u.NombreApellido == username)
+                    && u.Password == password);
         }
     }
 }

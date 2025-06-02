@@ -1,82 +1,89 @@
-using System.Text;
+using ContApi.Models;
 using GestionContactosApi.Models;
-using GestionContactosApi.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.EntityFrameworkCore;
 
 namespace GestionContactosApi.Controllers
 {
     [ApiController]
-    [Route("api/contacto")]
+    [Route("api/contactos")]
     public class ContactosController : ControllerBase
     {
-        private readonly ContactoService _servicio;
+        private readonly DbA358b2Pam3Context _context;
 
-        public ContactosController(ContactoService servicio)
+        public ContactosController(DbA358b2Pam3Context context)
         {
-            _servicio = servicio;
+            _context = context;
         }
 
-        // GET: /api/contactos/{id}
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Contacto>> ObtenerPorId(int id)
+        [HttpGet]
+        [AllowAnonymous]
+        public async Task<ActionResult<IEnumerable<Contacto>>> GetContactos()
         {
-            var contacto = await _servicio.ObtenerPorId(id);
+            return await _context.Contacto.ToListAsync();
+        }
+
+        [HttpGet("{id}")]
+        [Authorize]
+        public async Task<ActionResult<Contacto>> GetContacto(int id)
+        {
+            var contacto = await _context.Contacto.FindAsync(id);
             if (contacto == null)
                 return NotFound();
 
-            return Ok(contacto);
+            return contacto;
         }
 
-        // POST: /api/contactos/add
-        [HttpPost("add")]
-        public async Task<ActionResult<Contacto>> Agregar(Contacto nuevo)
+        [HttpPost]
+        [Authorize]
+        public async Task<ActionResult<Contacto>> PostContacto(Contacto contacto)
         {
-            var exito = await _servicio.Agregar(nuevo);
-            if (!exito)
-                return StatusCode(500, "No se pudo agregar el contacto.");
 
-            return CreatedAtAction(nameof(ObtenerPorId), new { id = nuevo.Id }, nuevo);
+
+            _context.Contacto.Add(contacto);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetContacto), new { id = contacto.ContactoId }, contacto);
         }
 
-        // PUT: /api/contactos/edit/{id}
-        [HttpPut("edit/{id}")]
-        public async Task<ActionResult> Editar(int id, Contacto actualizado)
-        {
-            var contactoExistente = await _servicio.ObtenerPorId(id);
-            if (contactoExistente == null)
-                return NotFound();
 
-            // En Supabase, no se puede hacer update desde GET
-            actualizado.Id = id;
-            var exito = await _servicio.Editar(actualizado);
-            if (!exito)
-                return StatusCode(500, "No se pudo actualizar el contacto.");
+        [HttpPut("{id}")]
+        [Authorize]
+        public async Task<IActionResult> PutContacto(int id, Contacto contacto)
+        {
+            if (id != contacto.ContactoId)
+                return BadRequest();
+
+            _context.Entry(contacto).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!_context.Contacto.Any(e => e.ContactoId == id))
+                    return NotFound();
+                else
+                    throw;
+            }
 
             return NoContent();
-
         }
 
-        // Opcional: GET todos
-        [HttpGet]
-        public async Task<ActionResult<List<Contacto>>> ObtenerTodos()
-        {
-            var lista = await _servicio.ObtenerTodos();
-            return Ok(lista);
-        }
-
-        // DELETE: /api/contactos/{id}
         [HttpDelete("{id}")]
-        public async Task<ActionResult> Eliminar(int id)
+        [Authorize]
+        public async Task<IActionResult> DeleteContacto(int id)
         {
-            var exito = await _servicio.Eliminar(id);
-            if (!exito)
+            var contacto = await _context.Contacto.FindAsync(id);
+            if (contacto == null)
                 return NotFound();
+
+            _context.Contacto.Remove(contacto);
+            await _context.SaveChangesAsync();
 
             return NoContent();
         }
     }
-
-
-
 }
