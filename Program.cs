@@ -52,7 +52,16 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        policy =>
+        {
+            policy.AllowAnyOrigin()
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
 
 // Servicios
 builder.Services.AddEndpointsApiExplorer();
@@ -95,6 +104,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors("AllowAll");
 //app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
